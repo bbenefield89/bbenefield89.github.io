@@ -9,6 +9,12 @@ color:
   primary-dark: '#000000'
   links: '#219ab3'
 
+# Work/Projects settings
+projectsData:
+  - title: 'LimboChat'
+    image: './img/limbochat.png'
+    url: 'https://github.com/bbenefield89/LimboChat'
+  
 # Footer settings
 footer: Brandon Benefield
 
