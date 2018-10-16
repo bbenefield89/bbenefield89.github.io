@@ -365,3 +365,33 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+/**
+ * CUSTOM
+ */
+.projects_list {
+  display: grid;
+  grid-template: auto / 1fr;
+  grid-row-gap: 2.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.projects_list__item__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 270px;
+}
+
+.projects_list__item__container__img {
+  width: 270px;
+}
+
+@media (min-width: 726px) {
+  .projects_list {
+    grid-template: auto / repeat(2, 1fr)
+  }
+}
