@@ -14,6 +14,9 @@ projectsData:
   - title: 'LimboChat'
     image: './img/limbochat.png'
     url: 'https://github.com/bbenefield89/LimboChat'
+  - title: 'Random Quote Generator'
+    image: './img/rqg.png'
+    url: 'https://github.com/bbenefield89/RandomQuoteGenerator'
   
 # Footer settings
 footer: Brandon Benefield
