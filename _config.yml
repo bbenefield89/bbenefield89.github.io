@@ -17,6 +17,11 @@ projectsData:
   - title: 'Random Quote Generator'
     image: './img/rqg.png'
     url: 'https://github.com/bbenefield89/RandomQuoteGenerator'
+
+# Blog settings
+blogPosts:
+  - title: 'Building Your First NPM Package'
+    url: 'https://medium.com/@brandonbenefield/building-your-first-npm-package-9e3c661d90c8'
   
 # Footer settings
 footer: Brandon Benefield
@@ -26,7 +31,7 @@ social:
   - title: twitter
     url: https://twitter.com/bbenefield89
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/bbenefield89
 
 # Build settings
 markdown: kramdown

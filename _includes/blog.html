@@ -3,8 +3,18 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Latest from the Blog (Coming Soon)</h2>
-                    <a href="#" class="btn btn-default btn-lg">Visit Blog Page</a>
+                    <h2>Latest from the Blog</h2>
+                    <a href="https://medium.com/@brandonbenefield" class="btn btn-default btn-lg blog_btn">Visit Blog Page</a>
+
+                    <ul class="projects_list">
+                      {% for blogPost in site.blogPosts %}
+                        <li class="projects_list__item">
+                          <div class="projects_list__item__container">
+                            <a href={{ blogPost.url }} class="blog_link" target="_blank" rel="nofollow">{{ blogPost.title }}</a>
+                          </div>
+                        </li>
+                      {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>
