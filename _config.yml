@@ -22,6 +22,8 @@ projectsData:
 blogPosts:
   - title: 'Building Your First NPM Package'
     url: 'https://medium.com/@brandonbenefield/building-your-first-npm-package-9e3c661d90c8'
+  - title: 'Making Contributions To A New Code Base'
+    url: 'https://medium.com/@brandonbenefield/making-contributions-to-a-new-code-base-be66d230b38e'
   
 # Footer settings
 footer: Brandon Benefield
