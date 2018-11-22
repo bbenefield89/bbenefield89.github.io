@@ -26,6 +26,8 @@ blogPosts:
     url: 'https://medium.com/@brandonbenefield/making-contributions-to-a-new-code-base-be66d230b38e'
   - title: 'Need More Java! Pt. 1 - Data Types'
     url: 'https://medium.com/@brandonbenefield/need-more-java-3c8b457ed082'
+  - title: 'Need More Java! Pt. 2.0 - Classes'
+    url: 'https://medium.com/@brandonbenefield/need-more-java-pt-2-classes-fb14cdbacb9d'
   
 # Footer settings
 footer: Brandon Benefield
