@@ -20,14 +20,14 @@ projectsData:
 
 # Blog settings
 blogPosts:
+  - title: 'Creating/Dispatching Custom JS Events'
+    url: 'https://dev.to/bbenefield89/creating-dispatching-custom-js-events-23mc'
   - title: 'Fixing NPM Dependencies Vulnerabilities'
     url: 'https://dev.to/bbenefield89/fixing-npm-dependencies-vulnerabilities-6p8'
   - title: 'How to Dockerize an ExpressJS Application'
     url: 'https://medium.com/@brandonbenefield/how-to-dockerize-an-expressjs-application-cdf1f8aa56d5'
   - title: 'Building Your First NPM Package'
     url: 'https://medium.com/@brandonbenefield/building-your-first-npm-package-9e3c661d90c8'
-  - title: 'Making Contributions To A New Code Base'
-    url: 'https://medium.com/@brandonbenefield/making-contributions-to-a-new-code-base-be66d230b38e'
   
 # Footer settings
 footer: Brandon Benefield
