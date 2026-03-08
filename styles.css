@@ -219,13 +219,17 @@ h3 {
   border: 1px solid var(--surface-border);
   background: var(--bg-elevated);
   box-shadow: var(--shadow-md);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.28rem;
 }
 
 .menu-toggle span {
   display: block;
-  width: 1.1rem;
+  width: 1.15rem;
   height: 2px;
-  margin: 0.25rem auto;
+  margin: 0;
   background: var(--text);
   border-radius: 999px;
 }
@@ -691,8 +695,7 @@ body[data-theme="light"] .button-primary {
   }
 
   .menu-toggle {
-    display: inline-grid;
-    place-items: center;
+    display: inline-flex;
     margin-left: auto;
   }
 
@@ -750,6 +753,9 @@ body[data-theme="light"] .button-primary {
     animation: none !important;
   }
 }
+
+
+
 
 
 
