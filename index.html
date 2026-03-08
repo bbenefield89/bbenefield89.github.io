@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon Benefield | Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio website for software engineer Brandon Benefield, with a backend focus in C# and .NET, featuring selected projects, technical strengths, and contact details."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-theme="dark">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="#home" aria-label="Brandon Benefield home">
+          <span class="brand-mark">BB</span>
+          <span class="brand-text">Brandon Benefield</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="header-panel">
+          <nav class="site-nav" id="site-nav" aria-label="Primary">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Switch to light theme"
+            data-theme-toggle
+          >
+            <span class="theme-toggle__label">Dark</span>
+            <span class="theme-toggle__track">
+              <span class="theme-toggle__thumb"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="site-shell">
+      <main>
+        <section class="hero section" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">Software Engineer • Backend-Focused • C# / .NET</p>
+            <h1>Brandon Benefield</h1>
+            <p class="hero-subtitle">Building reliable backend systems that keep business-critical data moving.</p>
+            <p class="hero-description">
+              I’m a software engineer with 7 years of experience building practical
+              software for real business operations. These days I’m focused mostly on
+              backend work in C# and .NET, building services, integrations, and data
+              flows that help teams get the information they need reliably.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View My Work</a>
+              <a class="button button-secondary" href="#contact">Contact Me</a>
+            </div>
+
+            <ul class="hero-highlights" aria-label="Professional highlights">
+              <li>7 years building business-critical software</li>
+              <li>Backend-focused with deep C# and .NET experience</li>
+              <li>Experience across healthcare data workflows and hospitality operations</li>
+            </ul>
+          </div>
+
+          <aside class="hero-visual" aria-label="Engineering overview">
+            <div class="signal-card">
+              <p class="signal-card__label">Current focus</p>
+              <h2>Building backend systems that move critical data reliably.</h2>
+              <div class="signal-grid">
+                <div>
+                  <span>Primary stack</span>
+                  <strong>C#, .NET, SQL, REST APIs</strong>
+                </div>
+                <div>
+                  <span>Recent work</span>
+                  <strong>Healthcare data tooling, integrations, internal systems</strong>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section projects-section" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Featured Projects</h2>
+            <p>
+              A few examples of software built with a strong emphasis on product
+              thinking, technical execution, and measurable outcomes.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-card__top">
+                <div>
+                  <p class="project-card__role">Lead Developer</p>
+                  <h3>DevDash</h3>
+                </div>
+                <span class="project-card__badge">SaaS Dashboard</span>
+              </div>
+
+              <p class="project-card__summary">
+                A configurable engineering dashboard for tracking commits,
+                delivery health, and release confidence across multiple teams.
+              </p>
+
+              <ul class="tag-list" aria-label="DevDash tech stack">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <ul class="project-points">
+                <li>Reduced release reporting time with a unified operational view.</li>
+                <li>Improved dashboard performance with optimized API aggregation.</li>
+                <li>Designed reusable UI patterns for rapid feature iteration.</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="#" aria-label="Open DevDash case study">Case Study</a>
+                <a href="#" aria-label="Open DevDash source">GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__top">
+                <div>
+                  <p class="project-card__role">Frontend Engineer</p>
+                  <h3>CodeCollab</h3>
+                </div>
+                <span class="project-card__badge">Realtime App</span>
+              </div>
+
+              <p class="project-card__summary">
+                A collaborative coding environment with shared workspaces,
+                presence indicators, and synchronized debugging sessions.
+              </p>
+
+              <ul class="tag-list" aria-label="CodeCollab tech stack">
+                <li>Next.js</li>
+                <li>Socket.io</li>
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+              </ul>
+
+              <ul class="project-points">
+                <li>Built core collaboration flows for multi-user editing sessions.</li>
+                <li>Streamlined onboarding with a task-first interface and templates.</li>
+                <li>Improved session reliability under concurrent activity.</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="#" aria-label="Open CodeCollab case study">Case Study</a>
+                <a href="#" aria-label="Open CodeCollab source">GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__top">
+                <div>
+                  <p class="project-card__role">Full-stack Developer</p>
+                  <h3>ShopSavvy</h3>
+                </div>
+                <span class="project-card__badge">E-commerce Tools</span>
+              </div>
+
+              <p class="project-card__summary">
+                A merchant operations suite for catalog workflows, fulfillment
+                visibility, and conversion-oriented merchandising controls.
+              </p>
+
+              <ul class="tag-list" aria-label="ShopSavvy tech stack">
+                <li>Vue</li>
+                <li>Django</li>
+                <li>PostgreSQL</li>
+                <li>Redis</li>
+              </ul>
+
+              <ul class="project-points">
+                <li>Supported higher throughput for merchandising and order workflows.</li>
+                <li>Introduced performance improvements across inventory-heavy screens.</li>
+                <li>Delivered polished admin tooling for daily business operations.</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="#" aria-label="Open ShopSavvy case study">Case Study</a>
+                <a href="#" aria-label="Open ShopSavvy source">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section about-section" id="about">
+          <div class="section-heading section-heading--center">
+            <p class="eyebrow">Professional profile</p>
+            <h2>About</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                I’m a software engineer with 7 years of experience building
+                software for practical, business-critical problems. While I have
+                frontend experience, my focus these days is backend development in
+                C# and .NET, building services and internal tools that keep systems
+                dependable and data accessible.
+              </p>
+              <p>
+                My background includes software supporting hotel operations at
+                MasterCorp and healthcare-adjacent systems at CorroHealth, where I
+                help facilitate medical coding workflows by building the software
+                that retrieves charts and moves the right data to the right place.
+              </p>
+            </div>
+
+            <div class="about-details">
+              <div class="detail-card">
+                <span>Working style</span>
+                <strong>Calm, dependable execution with clear communication and steady ownership.</strong>
+              </div>
+              <div class="detail-card">
+                <span>Core strengths</span>
+                <strong>C#, .NET, backend services, integrations, data workflows, and React when needed.</strong>
+              </div>
+              <div class="detail-card">
+                <span>Looking for</span>
+                <strong>Teams building durable, operationally important software in stable industries.</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-row">
+            <a class="button button-primary button-small" href="https://www.linkedin.com/in/brandon-benefield-4a4976144/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a class="button button-secondary button-small" href="https://github.com/bbenefield89" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </div>
+        </section>
+
+        <section class="section skills-section" id="skills">
+          <div class="section-heading section-heading--center">
+            <p class="eyebrow">Technical toolkit</p>
+            <h2>Skills / Tech Stack</h2>
+            <p>Technologies I use most often in backend-focused software work, plus supporting frontend tools.</p>
+          </div>
+
+          <div class="skills-groups">
+            <div class="skills-group">
+              <h3>Backend</h3>
+              <ul class="chip-grid">
+                <li>C#</li>
+                <li>.NET</li>
+                <li>ASP.NET Core</li>
+                <li>REST APIs</li>
+                <li>SQL</li>
+                <li>Entity Framework</li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h3>Data &amp; Integration</h3>
+              <ul class="chip-grid">
+                <li>Data Pipelines</li>
+                <li>System Integrations</li>
+                <li>SQL Server</li>
+                <li>Background Jobs</li>
+                <li>ETL Workflows</li>
+                <li>Debugging</li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h3>Supporting Frontend</h3>
+              <ul class="chip-grid">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="contact-card">
+            <div class="section-heading">
+              <p class="eyebrow">Let’s talk</p>
+              <h2>Contact</h2>
+              <p>
+                If you’re hiring for a software engineering role, especially
+                backend-focused work in .NET, healthcare, operations, or other
+                durable industries, I’d be glad to connect.
+              </p>
+            </div>
+
+            <div class="contact-actions">
+              <a class="button button-primary" href="mailto:bsquared18@gmail.com">bsquared18@gmail.com</a>
+              <a class="button button-secondary" href="https://www.linkedin.com/in/brandon-benefield-4a4976144/" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Brandon Benefield. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
