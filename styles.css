@@ -727,6 +727,12 @@ body[data-theme="light"] .button-primary {
     max-width: 12ch;
   }
 
+  .about-section .section-heading--center,
+  .skills-section .section-heading--center {
+    margin-inline: 0;
+    text-align: left;
+  }
+
   .project-grid,
   .skills-groups {
     grid-template-columns: 1fr;
@@ -753,6 +759,7 @@ body[data-theme="light"] .button-primary {
     animation: none !important;
   }
 }
+
 
 
 
